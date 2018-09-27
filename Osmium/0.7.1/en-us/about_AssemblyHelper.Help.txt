@@ -1,0 +1,18 @@
+﻿TOPIC 
+	about_AssemblyHelper
+	
+SHORT DESCRIPTION	
+	The module contains several functions for dealing with assemblies.
+	
+LONG DESCRIPTION
+Assemblies are the building block of the .NET Runtime (either Core or the full Framework). An Assembly file is just a file with the extension .dll that contains type and interface definitions. The PowerShell itsel is made of several assemblies.
+
+	
+NOTE
+A very good tool for inspecting the content of an Assembly file is Ilspy.exe	
+TROUBLESHOOTING NOTE
+
+EXAMPLES
+Get-Assembly *PowerShell*
+
+Gets all assembly files on the current drive that contains 'powershell' in their names.
